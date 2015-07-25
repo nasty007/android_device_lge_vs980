@@ -21,3 +21,6 @@ TARGET_KERNEL_CONFIG := aosp_vs980_defconfig
 TARGET_OTA_ASSERT_DEVICE := vs980,g2,galbi
 
 G2_DTS_TARGET := msm8974-g2-vzw
+
+# Prebuilt Chromium
+USE_PREBUILT_CHROMIUM := true
