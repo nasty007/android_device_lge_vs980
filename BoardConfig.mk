@@ -24,3 +24,6 @@ G2_DTS_TARGET := msm8974-g2-vzw
 
 # Prebuilt Chromium
 USE_PREBUILT_CHROMIUM := true
+
+# Assertions
+TARGET_BOARD_INFO_FILE ?= device/lge/vs980/board-info.txt
