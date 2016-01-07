@@ -29,4 +29,4 @@ USE_PREBUILT_CHROMIUM := true
 TARGET_BOARD_INFO_FILE ?= device/lge/vs980/board-info.txt
 
 # RIL
-BOARD_RIL_CLASS := ../../../device/lge/vs980/ril/
+BOARD_RIL_CLASS += ../../../device/lge/vs980/ril/
